@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #u{
+            display: block;
+           max-width: 100%;
+            border-collapse: collapse;
+
+        }
+        #u th, #u td{
+            border: 2px solid crimson;
+            padding:24px;
+
+
+        }
+        #u th{
+            color:blue;
+            background-color: pink;
+            text-align: left;
+            font-size: 50px;
+        
+
+        }
+        #u tr:nth-child(even){
+            background-color: #f2f2f2;
+            }
+
+#u tr:hover {background-color: #ddd;}
+#y{
+    position:relative;
+    top:100px;
+    left:200px
+}
+img{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="y">
+        <img src="./img2.jpg">
+        <table id="u">
+            <tr>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ejiofor chiamaka</td>
+                <td>AAowerri</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ejiofor Phynia</td>
+                <td>BBOwerri</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ejiofor chiamaka</td>
+                <td>AAowerri</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ejiofor chiamaka</td>
+                <td>AAowerri</td>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+</html>
